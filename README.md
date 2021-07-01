@@ -7,7 +7,7 @@ Final project for the Building AI course
 
 ## Summary
 
-This is just a simple calculator that calculates area of diffrent shapes and structures currently it calculates the area of circle and rectangle, but more shapes can be adden to it  
+This is just a simple calculator that calculates area of diffrent shapes and structures.
 
 
 ## Background
