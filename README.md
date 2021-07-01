@@ -13,24 +13,15 @@ This is just a simple calculator that calculates area of diffrent shapes and str
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+It can solve the problem of calculating area of different shapes, you don't need to remember the fromluas just select the shape and there you go you have your answer
 
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+It's very useful for people who need to calculate areas of different shape regularly, it'll save their time and make the more productive.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+<img src="https://visme.co/blog/wp-content/uploads/2017/08/40-Brilliant-Geometric-Patterns-The-Psychology-of-Shapes.jpg" width="300">
 
 This is how you create code examples:
 ```
@@ -52,22 +43,15 @@ main()
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+Data used in this project is entered by user itself
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Curentlly this calculator is useful only for 2-D shapes, and is not useful for 3-D shapes
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+It can become more useful if we can provide it as many shapes and formulas as possible, and make sure that it has every single shape in it.
 
 
 ## Acknowledgments
@@ -75,5 +59,5 @@ How could your project grow and become something even more? What kind of skills,
 * list here the sources of inspiration 
 * do not use code, images, data etc. from others without permission
 * when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+  <br>For example: [Written by Kayla Darling](https://visme.co/blog/geometric-patterns/) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
 * etc
