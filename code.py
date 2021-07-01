@@ -1,24 +1,64 @@
-area calculator
-def areacalculator():
-    _input_ = input("Enter the shape you want to calculate area of: ")
-    area = 0
-    pie = 3.14
-    if _input_ == "Square":
-        side = int(input("Enter the value of side: "))
-        area = area + (side ** 2)
-    elif _input_ == "Circle":
-        radius = int(input("Enter the value of radius: "))
-        area = area + (2 * pie * radius)
-    elif _input_ == "Rectangle":
-        length = int(input("Enter the value of length: "))
-        width = int(input("Enter the value of length: "))
-        area = area + (length * width)
-    elif _input_ == "Triangle":
-        base = int(input("Enter the value of base: "))
-        height = int(input("Enter the value of height: "))
-        area = area +(0.5 * base * height)
-    else:
-        print ("Select a valid shape")
-    print ("%.2f" % area)
-
-areacalculator()
+# define a function for calculating
+# the area of a shapes
+def calculate_area(name):\
+    
+  # converting all characters
+  # into lower cases
+  name = name.lower()
+    
+  # check for the conditions
+  if name == "rectangle":
+    l = int(input("Enter rectangle's length: "))
+    b = int(input("Enter rectangle's breadth: "))
+      
+    # calculate area of rectangel
+    rect_area = l * b
+    print(f"The area of rectangle is 
+          {rect_area}.")
+    
+  elif name == "square":
+    s = int(input("Enter square's side length: "))
+        
+    # calculate area of square
+    sqt_area = s * s
+    print(f"The area of square is 
+          {sqt_area}.")
+  
+  elif name == "triangle":
+    h = int(input("Enter triangle's height length: "))
+    b = int(input("Enter triangle's breadth length: "))
+        
+    # calculate area of triangle
+    tri_area = 0.5 * b * h
+    print(f"The area of triangle is 
+          {tri_area}.")
+  
+  elif name == "circle":
+    r = int(input("Enter circle's radius length: "))
+    pi = 3.14
+          
+    # calculate area of circle
+    circ_area = pi * r * r
+    print(f"The area of triangle is 
+          {circ_area}.")
+          
+  elif name == 'parallelogram':
+    b = int(input("Enter parallelogram's base length: "))
+    h = int(input("Enter parallelogram's height length: "))
+      
+    # calculate area of parallelogram
+    para_area = b * h
+    print(f"The area of parallelogram is 
+          {para_area}.")
+      
+  else:
+    print("Sorry! This shape is not availabel")
+  
+# driver code
+if __name__ == "__main__" :
+    
+  print("Calculate Shape Area")
+  shape_name = input("Enter the name of shape whose area you want to find: ")
+    
+  # function calling
+  calculate_area(shape_name)
